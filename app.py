@@ -13,7 +13,7 @@ def wordwrapper(string_of_words, column_number):
     #Simple method:
     #print("\n".join(textwrap.wrap(string_of_words, width=column_number)))
 
-    #Add hyphen to broken words:
+    #Method to add hyphen to broken words:
     n = column_number
     lines = string_of_words.split()
 
